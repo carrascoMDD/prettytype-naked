@@ -1,8 +1,8 @@
 # prettytype-naked
 
-Module, prototype and inheritance patterns, deconstructed into elemental mechanisms, and constructed step-wise into the whole, to better grasp how to come out with prettytype github project and npm package.
+Module, prototype and inheritance patterns, deconstructed into elemental mechanisms, and constructed step-wise into a whole multi-platform
 
-Explains patterns used in npm package prettytype:  https://github.com/carrascoMDD/prettytype 
+Explains patterns used in github project and npm package  prettytype:  https://github.com/carrascoMDD/prettytype 
 
 Multi-platform Javascript EC5 coding patterns and base super-prototypes, for write-once, run and test everywhere (angularjs, requirejs, nodejs).
 

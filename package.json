@@ -1,7 +1,7 @@
 {
-  "name": "prettytype",
-  "version": "1.0.3",
-  "description": "Multi-platform Javascript EC5 coding patterns and base super-prototypes, for write-once, run and test everywhere (angular, require, node).",
+  "name": "prettytype-naked",
+  "version": "0.0.1",
+  "description": "Module, prototype and inheritance patterns, deconstructed into elemental mechanisms, and constructed step-wise into a whole multi-platform",
   "keywords": [
     "angularjs",
     "requirejs",
@@ -49,7 +49,8 @@
     "testangularjs": "grunt karma:angularjs",
     "testrequirejs": "grunt karma:requirejs",
     "testnomod": "grunt karma:nomod",
-    "test": "jasmine --config=test/test-node/jasmine.json; grunt karma:angularjs; grunt karma:requirejs; grunt karma:nomod",
+    "testjustbrowser": "grunt karma:justbrowser",
+    "test": "jasmine --config=test/test-node/jasmine.json; grunt karma:angularjs; grunt karma:requirejs; grunt karma:nomod, grunt karma:justbrowser",
     "start": ""
   },
   "config": {},

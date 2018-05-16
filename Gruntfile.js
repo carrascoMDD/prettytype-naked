@@ -11,37 +11,8 @@ module.exports = function(grunt) {
             scripts: {
 
                 files: [
-                    'src/modboot/logmoduleloads.js',
-                    'src/modboot/modboot_types.js',
-                    'src/modboot/typesregistry.js',
-                    'src/modboot/overrider_type.js',
-                    'src/modboot/overrider_svce.js',
-    
-                    'src/utils/decoratesystemprototypes_svce.js',
-                    'src/utils/stacktrace.js',
-                    'src/utils/exceptiondetails_svce.js',
-                    'src/utils/console_svce.js',
-                    'src/utils/traversals.js',
-                    'src/utils/checks.js',
-    
-                    'src/identifying/identifying_types.js',
-                    'src/identifying/identifier_type.js',
-                    'src/identifying/identifier_svce.js',
-                    'src/identifying/record_type.js',
-                    'src/identifying/recordingpolicy_type.js',
-                    'src/identifying/recordingpolicy_keepall_type.js',
-                    'src/identifying/recordingpolicy_keepsome_type.js',
-                    'src/identifying/recordingpolicy_keeprecent_type.js',
-                    'src/identifying/dumpingpolicy_type.js',
-                    'src/identifying/dumpingpolicy_filterkinds_type.js',
-                    'src/identifying/dumpingpolicy_triggerkinds_type.js',
-                    'src/identifying/recorder_type.js',
-                    'src/identifying/recorder_svce.js',
-    
-                    'src/eventkinds/eventkinds_common.js',
-    
-                    'src/common/common_types.js',
-                    'src/common/common_type.js'
+                    // 'src/modboot/logmoduleloads.js',
+                   
                 ],
 
                 tasks: ['concat', 'uglify'],
@@ -66,36 +37,6 @@ module.exports = function(grunt) {
             dist : {
                 src  : [
                     'src/modboot/logmoduleloads.js',
-                    'src/modboot/modboot_types.js',
-                    'src/modboot/typesregistry.js',
-                    'src/modboot/overrider_type.js',
-                    'src/modboot/overrider_svce.js',
-                    
-                    'src/utils/decoratesystemprototypes_svce.js',
-                    'src/utils/stacktrace.js',
-                    'src/utils/exceptiondetails_svce.js',
-                    'src/utils/console_svce.js',
-                    'src/utils/traversals.js',
-                    'src/utils/checks.js',
-    
-                    'src/identifying/identifying_types.js',
-                    'src/identifying/identifier_type.js',
-                    'src/identifying/identifier_svce.js',
-                    'src/identifying/record_type.js',
-                    'src/identifying/recordingpolicy_type.js',
-                    'src/identifying/recordingpolicy_keepall_type.js',
-                    'src/identifying/recordingpolicy_keepsome_type.js',
-                    'src/identifying/recordingpolicy_keeprecent_type.js',
-                    'src/identifying/dumpingpolicy_type.js',
-                    'src/identifying/dumpingpolicy_filterkinds_type.js',
-                    'src/identifying/dumpingpolicy_triggerkinds_type.js',
-                    'src/identifying/recorder_type.js',
-                    'src/identifying/recorder_svce.js',
-    
-                    'src/eventkinds/eventkinds_common.js',
-                    
-                    'src/common/common_types.js',
-                    'src/common/common_type.js'
                 ],
                 dest : 'build/prettytype.js'
             }
@@ -127,6 +68,11 @@ module.exports = function(grunt) {
     
             nomod: {
                 configFile: 'test/test-browser-karma-nomod/karma-nomod.conf.js',
+                singleRun: true
+            },
+    
+            justbrowser: {
+                configFile: 'test/test-browser-karma-justbrowser/karma-justbrowser.conf.js',
                 singleRun: true
             }
         }

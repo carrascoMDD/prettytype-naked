@@ -1,6 +1,6 @@
 {
-  "name": "prettytype",
-  "description": "Multi-platform Javascript EC5 coding patterns and base super-prototypes, for write-once, run and test everywhere (angular, require, node).",
+  "name": "prettytype-naked",
+  "description": "Module, prototype and inheritance patterns, deconstructed into elemental mechanisms, and constructed step-wise into a whole multi-platform",
   "main": "",
   "authors": [
     "Antonio Carrasco Valero <carrascomdd@gmail.com>"
@@ -25,7 +25,6 @@
   ],
   "dependencies": {
     "angular": "1.3.15",
-    "angular-mocks": "1.3.15",
-    "nomod": "^0.0.2"
+    "angular-mocks": "1.3.15"
   }
 }
