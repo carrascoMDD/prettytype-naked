@@ -45,7 +45,11 @@ var someKarmaConfFiles = [
      */
     
     '../../src/globalpolutionavoidance/globalpolution-unpoluting.js',
-
+    '../../src/globalpolutionavoidance/globalpolution-never_poluting_under_moduledefinition.js',
+    
+    
+    
+    
     '../globalpolutionavoidance-test/globalpolution-unpoluting-test.js',
     '../globalpolutionavoidance-test/globalpolution-poluting-donotuse_strict-test.js',
     '../globalpolutionavoidance-test/globalpolution-poluting-nostrict-test.js',
@@ -58,6 +62,9 @@ var someKarmaConfFiles = [
     '../globalpolutionavoidance-test/globalpolution-poluting-use_strict-wo_var-doesnotload-test.js'
     */
     
+    '../globalpolutionavoidance-test/globalpolution-never_poluting-browser_under_moduledefinition-test.js'
+
+
 ];
 
 

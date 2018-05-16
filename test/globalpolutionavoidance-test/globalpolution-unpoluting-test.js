@@ -34,7 +34,7 @@ permissions and limitations under the Licence.
 
 'use strict';
 
-describe( "globalpolution-unpoluting does not polute globals, not just in nodejs, but neither when loaded in the browser", function () {
+describe( "globalpolution-unpoluting does not polute globals, not just in nodejs, but neither when loaded in the browser with AngularJS, RequireJS or nomod", function () {
     
     it( "global is unpoluted because can not find globals which would be created by globalpolution-unpoluted", function () {
 
