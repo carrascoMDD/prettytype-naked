@@ -34,35 +34,35 @@ var someKarmaConfFiles = [
     
     /* Order of files is mandatory as stated to the dependency injection in angular module definitions */
     
-    '../../src/globalpolutionavoidance/globalpolution-poluting-donotuse_strict.js',
-    '../../src/globalpolutionavoidance/globalpolution-poluting-nostrict.js',
-    '../../src/globalpolutionavoidance/globalpolution-poluting-use_strict-with_var.js',
+    '../../src/globalpollutionavoidance/globalpollution-polluting-donotuse_strict.js',
+    '../../src/globalpollutionavoidance/globalpollution-polluting-nostrict.js',
+    '../../src/globalpollutionavoidance/globalpollution-polluting-use_strict-with_var.js',
     
     /* **********************************************************************************************
     * Can not be included among the files to be loaded by karma to run tests, because
-      globalpolution-poluting-use_strict-wo_var-doesnotload fails to load because the use_strict and not using var keyword, but if it were to laod, polutes globals when loaded in the browser without a module manager, but not with angular, require, nomod, or in nodejs", function () {
-    '../../src/globalpolutionavoidance/globalpolution-poluting-use_strict-wo_var-doesnotload.js',
+      globalpollution-polluting-use_strict-wo_var-doesnotload fails to load because the use_strict and not using var keyword, but if it were to laod, pollutes globals when loaded in the browser without a module manager, but not with angular, require, nomod, or in nodejs", function () {
+    '../../src/globalpollutionavoidance/globalpollution-polluting-use_strict-wo_var-doesnotload.js',
      */
     
-    '../../src/globalpolutionavoidance/globalpolution-unpoluting.js',
-    '../../src/globalpolutionavoidance/globalpolution-never_poluting_under_moduledefinition.js',
+    '../../src/globalpollutionavoidance/globalpollution-unpolluting.js',
+    '../../src/globalpollutionavoidance/globalpollution-never_polluting_under_moduledefinition.js',
     
     
     
     
-    '../globalpolutionavoidance-test/globalpolution-unpoluting-test.js',
-    '../globalpolutionavoidance-test/globalpolution-poluting-donotuse_strict-test.js',
-    '../globalpolutionavoidance-test/globalpolution-poluting-nostrict-test.js',
-    '../globalpolutionavoidance-test/globalpolution-poluting-use_strict-with_var-test.js',
+    '../globalpollutionavoidance-test/globalpollution-unpolluting-test.js',
+    '../globalpollutionavoidance-test/globalpollution-polluting-donotuse_strict-test.js',
+    '../globalpollutionavoidance-test/globalpollution-polluting-nostrict-test.js',
+    '../globalpollutionavoidance-test/globalpollution-polluting-use_strict-with_var-test.js',
     
     /* **********************************************************************************************
     * Can not be included among the files to be loaded by karma to run tests, because the file to be tested can not be loaded.
-    * See globalpolution-poluting-use_strict-wo_var-doesnotload.js above
+    * See globalpollution-polluting-use_strict-wo_var-doesnotload.js above
 
-    '../globalpolutionavoidance-test/globalpolution-poluting-use_strict-wo_var-doesnotload-test.js'
+    '../globalpollutionavoidance-test/globalpollution-polluting-use_strict-wo_var-doesnotload-test.js'
     */
     
-    '../globalpolutionavoidance-test/globalpolution-never_poluting-browser_under_moduledefinition-test.js'
+    '../globalpollutionavoidance-test/globalpollution-never_polluting-browser_under_moduledefinition-test.js'
 
 
 ];
